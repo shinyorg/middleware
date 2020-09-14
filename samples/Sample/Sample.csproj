@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Push\Shiny.Middleware.Push.csproj" />
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Transfers\Shiny.Middleware.Transfers.csproj" />
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Push.Aws\Shiny.Middleware.Push.Aws.csproj" />
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Push.AzurePushNotifications\Shiny.Middleware.Push.AzurePushNotifications.csproj" />
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Push.FirebaseMessaging\Shiny.Middleware.Push.FirebaseMessaging.csproj" />
+        <ProjectReference Include="..\..\src\Shiny.Middleware.Transfers\Shiny.Middleware.Transfers.csproj" />
+    </ItemGroup>
+
+
+</Project>
